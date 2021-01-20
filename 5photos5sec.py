@@ -6,10 +6,11 @@ from datetime import datetime
 camera = PiCamera()
 camera.rotation = 270
 
-folder = os.mkdir('/home/anika/Desktop/test')
+dir = '/home/anika/Desktop/5x5s-' + datetime.now().strftime("%Y%m%d-%H%M%S") + '/'
+os.mkdir(dir)
 
 camera.start_preview(alpha=100)
 for i in range(5):
     sleep(5)
-    camera.capture('/home/anika/Desktop/test/' + datetime.now().strftime("%Y%m%d-%H%M%S") + '.jpg')
+    camera.capture(dir + datetime.now().strftime("%Y%m%d-%H%M%S") + '.jpg')
 camera.stop_preview()

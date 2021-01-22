@@ -4,7 +4,6 @@ import os
 from datetime import datetime
 
 camera = PiCamera()
-camera.rotation = 270
 
 dir = '/home/anika/Desktop/5x5s-' + datetime.now().strftime("%Y%m%d-%H%M%S") + '/'
 os.mkdir(dir)

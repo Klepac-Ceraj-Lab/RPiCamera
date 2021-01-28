@@ -5,7 +5,7 @@ from datetime import datetime
 
 camera = PiCamera()
 
-dir = '/home/anika/Desktop/5x5s-' + datetime.now().strftime("%Y%m%d-%H%M%S") + '/'
+dir = '/home/anika/Pictures/5x5s-' + datetime.now().strftime("%Y%m%d-%H%M%S") + '/'
 os.mkdir(dir)
 
 camera.start_preview(alpha=100)

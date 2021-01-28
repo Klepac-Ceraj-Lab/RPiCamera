@@ -1,17 +1,22 @@
 # RPiCamera
 
 **preview.py**
-shows camera preview for 60sec to allow for adjustments
+- shows camera preview for 60sec to allow for adjustments
+- only works if pi is connected to monitor
+
+**remotepreview.py**
+takes photo with name "remotepreview.jpg" => saves to Pictures
 
 **photo.py**
-takes one photo => saves to given directory
+- takes one photo => saves to given directory
+- to maintain consistency give directory in Pictures
 
 **video5sec.py**
-takes one video that is 5sec long => saves to Desktop
+takes one video that is 5sec long => saves to Pictures
 
 **5photos5sec.py**
-takes 5 photos with 5 sec intervals between each photo => saves to directory in Desktop
+takes 5 photos with 5 sec intervals between each photo => saves to directory in Pictures
 
-**all filenames** = YYYYMMDD-HHMMSS + {extension}
+**filenames** = YYYYMMDD-HHMMSS + {extension}
 
-**all directory names** = {numberofphotos}x{timeinterval} + YYYYMMDD-HHMMSS
+**directory names** = {numberofphotos}x{timeinterval} + YYYYMMDD-HHMMSS

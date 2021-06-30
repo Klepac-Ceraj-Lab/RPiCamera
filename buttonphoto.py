@@ -12,6 +12,12 @@ parser.add_argument("dir")
 args = parser.parse_args()
 
 camera.start_preview(alpha=100)
-button.wait_for_press()
-camera.capture(str(args.dir) + datetime.now().strftime("%Y%m%d-%H%M%S") + '.jpg')
-camera.stop_preview()
+frame = 1
+while True:
+    try:
+        button.wait_for_press()
+        camera.capture(str(args.dir) + datetime.now().strftime("%Y%m%d-%H%M%S") + '.jpg')
+        frame += 1
+    except KeyboardInterrupt:
+        camera.stop_preview()
+        break

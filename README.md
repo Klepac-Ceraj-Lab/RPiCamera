@@ -1,14 +1,14 @@
 # RPiCamera
 
 **buttonphoto.py**
-- takes one photo on button press => saves to given directory
-- to maintain consistency give directory in Pictures
-- protocol: run file --> push button
+- takes photo upon button press => saves all photos to given directory
+    - command: `~/Desktop/RPiCamera $ python buttonphoto.py <path to dir/>`
+- protocol: run file --> button press to take photo --> repeat
+- to stop: `Ctrl + C` in terminal --> button press to close
 
 **photo.py**
 - takes one photo => saves to given directory
-    - command: 
-- to maintain consistency give directory in Pictures
+    - command: `~/Desktop/RPiCamera $ python photo.py <path to dir/>`
 
 **preview.py**
 - shows camera preview for 60sec to allow for adjustments

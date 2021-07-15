@@ -16,13 +16,3 @@
 
 **remotepreview.py**
 takes photo with name "remotepreview.jpg" => saves to Pictures
-
-**video5sec.py**
-takes one video that is 5sec long => saves to Pictures
-
-**5photos5sec.py**
-takes 5 photos with 5 sec intervals between each photo => saves to directory in Pictures
-
-**filenames** = YYYYMMDD-HHMMSS + {extension}
-
-**directory names** = {numberofphotos}x{timeinterval} + YYYYMMDD-HHMMSS

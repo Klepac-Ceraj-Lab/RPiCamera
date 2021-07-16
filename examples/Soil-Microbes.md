@@ -1,6 +1,6 @@
 # Soil Microbes
 
-The HQ Camera was set up above a culture plate with micrboes from soil associated with *Rhoeo spathacea* and the RPi took photos from --- to ---.
+The HQ Camera was set up above a culture plate with micrboes from soil associated with [*Rhoeo spathacea*](https://en.wikipedia.org/wiki/Tradescantia_spathacea) and the RPi took photos from --- to ---.
 
 A newly constructed RPi Camera Box was used to take this set of photos.
 

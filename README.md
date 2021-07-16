@@ -22,7 +22,11 @@ Unpacking objects: 100% (60/60), done.
 ```
 
 ### Use this repository
-All Python scripts are located in the `scripts` directory. instructions for how to run scripts can be found in the `README.md` within that directory. Scripts should run with no additional modifications.
+All Python scripts can be found in `scripts/`. Instructions for how to run scripts can be found in `scripts/README.md`. Scripts should run with no additional modifications.
+
+Instructions for how to set up and create time lapse videos with this repository can also be found in `scripts/README.md`
+
+Example photos taken and time lapses made with the code in this repository can be found in `examples/`.
 
 [1]: https://www.raspberrypi.org/
 [2]: https://www.raspberrypi.org/products/raspberry-pi-high-quality-camera/

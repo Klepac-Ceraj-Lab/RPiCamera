@@ -1,8 +1,10 @@
 # Initial Test
 
-The HQ Camera was set up in front of a succulent and took photos in natural lighting for 3 full days from 1/29/21 to 1/31/21.
+The HQ Camera was set up in front of a succulent and the RPi took photos in natural lighting from 1/29/21 00:00 to 1/31/21 00:00.
 
-A [cron job](https://en.wikipedia.org/wiki/Cron) was written to capture photos every thirty minutes, at 00 and 30 of every hour: `0,30 * * * * python ~/Desktop/RPiCamera/photo.py ~/Pictures/TimeLapseTest/every-thirty/`
+A [cron job](https://en.wikipedia.org/wiki/Cron) was written to capture photos every 30min, at 00 and 30 of every hour: `0,30 * * * * python ~/Desktop/RPiCamera/scripts/photo.py ~/Pictures/TimeLapseTest/every-thirty/`
+
+A time lapse video was made using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime).
 
 <img width="758" alt="Initial-Test" src="https://user-images.githubusercontent.com/66045478/125981401-34af4993-21b3-4744-93b7-e32eae66863a.png">
 
@@ -10,10 +12,4 @@ Figure 1: A composite figure of 12 photos taken on the hour on 1/29/21. Numbers 
 
 ![Initial-Test](https://user-images.githubusercontent.com/66045478/125992504-847580a3-2b97-47c1-89dc-cf9c612d02ac.gif)
 
-Figure 2: A time lapse video of all photos taken during the 3 days at 24 frames per second, made using QuickTime Player Version 10.5 (1086.4.2).
-
-To make a time lapse video using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime):
-- Open QuickTime Player
-- Go to File -> Open Image Sequence (Command+Shift+O)
-- Select images to include in time lapse
-- Select feautures (24 frames per second is standard)
+Figure 2: A time lapse video of all photos taken, at 24 frames per second, made using QuickTime Player Version 10.5 (1086.4.2).

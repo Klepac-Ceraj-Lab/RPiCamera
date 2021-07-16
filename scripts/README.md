@@ -29,3 +29,12 @@ This directory contains scripts to control the HQ Camera with an RPi
 2. to copy to remote device: `rd $ rsync pd:<path to photo> <path to dir where photo will be copied>`
     - remote device = rd
     - device with photo = pd
+
+## Time Lapse Instructions
+1. Use a [cron job](https://en.wikipedia.org/wiki/Cron) to take photos at predetermined intervals of time
+    - see files in `examples/` for example cron jobs
+2. Make a time lapse using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime).
+    - Open QuickTime Player
+    - Go to "File" -> "Open Image Sequence" (Command+Shift+O)
+    - Select images to include in time lapse --> "Choose media"
+    - Select feautures (24 frames per second is standard) --> "Open"

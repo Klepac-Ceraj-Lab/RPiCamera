@@ -8,6 +8,8 @@ A [cron job](https://en.wikipedia.org/wiki/Cron) was written to capture photos e
 
 Figure 1: A composite figure of 12 photos taken on the hour on 1/29/21. Numbers in the top right corner indicate which hours the photos were taken.
 
+![Initial-Test](https://user-images.githubusercontent.com/66045478/125992504-847580a3-2b97-47c1-89dc-cf9c612d02ac.gif)
+
 Figure 2: A time lapse video of all photos taken during the 3 days at 24 frames per second, made using QuickTime Player Version 10.5 (1086.4.2).
 
 To make a time lapse video using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime):

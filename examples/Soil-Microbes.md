@@ -8,7 +8,7 @@ A [cron job](https://en.wikipedia.org/wiki/Cron) was written to capture photos e
 
 A time lapse video was made using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime).
 
-
+## https://youtu.be/Brx1uv4gLTg
 
 Figure 1: A time lapse video of all photos taken, at 24 frames per second, made using QuickTime Player Version 10.5 (1086.4.2).
 

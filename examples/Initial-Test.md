@@ -10,6 +10,6 @@ A time lapse video was made using [QuickTime Player](https://en.wikipedia.org/wi
 
 Figure 1: A composite figure of 12 photos taken on the hour on 1/29/21. Numbers in the top right corner indicate which hours the photos were taken.
 
-## https://youtu.be/h0pAcIlQed8
+**https://youtu.be/h0pAcIlQed8**
 
 Figure 2: A time lapse video of all photos taken, at 24 frames per second, made using QuickTime Player Version 10.5 (1086.4.2).

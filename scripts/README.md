@@ -54,7 +54,7 @@ Description:
 Instructions:
 
 To run:
-1. execute `$ python <path to RPiCamera>/RPiCamera/scripts/remotepreview.py`
+1. execute `$ python <path to RPiCamera>/RPiCamera/scripts/remotepreview.py <path to dir where photo will go>/remotepreview.jpg`
 
 To copy to remote device:
 1. execute `rd $ rsync pd:<path to photo on pd> <path to dir on rd where photo will be copied>`

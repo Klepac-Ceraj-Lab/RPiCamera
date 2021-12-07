@@ -1,7 +1,7 @@
 This directory contains scripts to control the HQ Camera with an RPi
 
-## Using the Command Line Interface
-All scripts are run using the command line interface.
+## Using the Command-Line Interface
+All scripts are run using the [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface).
 
 Command prompts will look something like this: `anika@raspberrypi:~ $`. In the Instructions below, everything after `$` is the command to be typed.
 

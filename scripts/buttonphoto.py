@@ -16,7 +16,7 @@ camera.start_preview(alpha=100) # alpha value makes preview slightly see-through
 frame = 1
 while True:
     try:
-        button.wait_for_press()
+        button.wait_for_press() # waits for button press
         camera.capture(str(args.dir) + datetime.now().strftime("%Y%m%d-%H%M%S") + '.jpg') # after button press, takes photo and saves to (directory given in command line)/timestamp.jpg
         frame += 1
     except KeyboardInterrupt:

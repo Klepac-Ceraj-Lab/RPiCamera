@@ -4,7 +4,9 @@ The HQ Camera was set up above a culture plate with micrboes from soil associate
 
 A newly constructed RPi Camera Box was used to take this set of photos.
 
-A [cron job](https://en.wikipedia.org/wiki/Cron) was written to capture photos every 15min, at 00, 15, 30, and 45 of every hour: `0,15,30,45 * * * * python ~/Desktop/RPiCamera/scripts/photo.py ~/Pictures/2021Summer-FirstTimeLapseWithBox/`
+A [cron job](https://en.wikipedia.org/wiki/Cron) was written to capture photos every 15min, at 00, 15, 30, and 45 of every hour: 
+
+`0,15,30,45 * * * * python ~/Desktop/RPiCamera/scripts/photo.py ~/Pictures/2021Summer-FirstTimeLapseWithBox/`
 
 A time lapse video was made using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime).
 

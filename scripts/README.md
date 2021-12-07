@@ -8,7 +8,7 @@ Command prompts will look something like this: `anika@raspberrypi:~ $`. In the I
 Bracketed sections of paths (eg. `<path to RPiCamera>`, `<path to dir where photo will go>`) indicate places where the path differs. Replace everything within and including the brackets with the actual path (eg. `<path to RPiCamera>/RPiCamera/scripts/photo.py` --> `~/Desktop/RPiCamera/scripts/photo.py`)
 
 
-## Description and Instructions for Individual Scripts:
+## Description and Instructions for Individual Scripts
 
 ### buttonphoto.py
 

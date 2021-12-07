@@ -2,7 +2,9 @@
 
 The HQ Camera was set up in front of several [Winogradsky columns](https://en.wikipedia.org/wiki/Winogradsky_column) and enrichments and the RPi took photos in natural lighting from 03/10/21 18:00 to 06/14/21 12:30.
 
-A [cron job](https://en.wikipedia.org/wiki/Cron) was written to capture photos every 30min, at 00 and 30 of every hour: `0,30 * * * * python ~/Desktop/RPiCamera/scripts/photo.py ~/Pictures/WColumns/every-thirty/`
+A [cron job](https://en.wikipedia.org/wiki/Cron) was written to capture photos every 30min, at 00 and 30 of every hour: 
+
+`0,30 * * * * python ~/Desktop/RPiCamera/scripts/photo.py ~/Pictures/WColumns/every-thirty/`
 
 A time lapse video was made using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime).
 

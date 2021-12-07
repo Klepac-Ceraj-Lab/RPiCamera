@@ -2,7 +2,9 @@
 
 The HQ Camera was set up in front of a succulent and the RPi took photos in natural lighting from 1/29/21 00:00 to 1/31/21 00:00.
 
-A [cron job](https://en.wikipedia.org/wiki/Cron) was written to capture photos every 30min, at 00 and 30 of every hour: `0,30 * * * * python ~/Desktop/RPiCamera/scripts/photo.py ~/Pictures/TimeLapseTest/every-thirty/`
+A [cron job](https://en.wikipedia.org/wiki/Cron) was written to capture photos every 30min, at 00 and 30 of every hour:
+
+`0,30 * * * * python ~/Desktop/RPiCamera/scripts/photo.py ~/Pictures/TimeLapseTest/every-thirty/`
 
 A time lapse video was made using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime).
 

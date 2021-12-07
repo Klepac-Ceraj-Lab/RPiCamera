@@ -1,5 +1,13 @@
 This directory contains scripts to control the HQ Camera with an RPi
 
+## Using the Command Line Interface
+All scripts are run using the command line interface.
+
+Command prompts will look something like this: `anika@raspberrypi:~ $`. In the Instructions below, everything after `$` is the command to be typed.
+
+Bracketed sections of paths (eg. `<path to RPiCamera>`, `<path to dir where photo will go>`) indicate places where the path differs. Replace everything within and including the brackets with the actual path (eg. `<path to RPiCamera>/RPiCamera/scripts/photo.py` --> `~/Desktop/RPiCamera/scripts/photo.py`)
+
+
 ## Description and Instructions for Individual Scripts:
 
 ### buttonphoto.py
@@ -18,7 +26,7 @@ To run:
 3. repeat for as many photos as desired
 
 To stop:
-1. execute `Ctrl + C`
+1. press `Ctrl + C`
 2. press button
 
 ### photo.py

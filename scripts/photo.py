@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("dir")
 args = parser.parse_args()
 
-camera.start_preview(alpha=100) # makes alpha value preview slightly see-through so screen is still visible
+camera.start_preview(alpha=100) # alpha value makes preview slightly see-through so screen is still visible
 sleep(5) # previews for 5sec before taking photo
 camera.capture(str(args.dir) + datetime.now().strftime("%Y%m%d-%H%M%S") + '.jpg') # takes photo and saves to (directory given in command line)/timestamp.jpg
 camera.stop_preview()

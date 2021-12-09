@@ -5,6 +5,8 @@ All scripts are run using the [command-line interface](https://en.wikipedia.org/
 
 Command prompts will look something like this: `anika@raspberrypi:~ $`. In the Instructions below, everything after `$` is the command to be typed.
 
+Most scripts also run through command line arguments (parsed using `argparse`). See [Python Command Line Arguments](https://www.askpython.com/python/python-command-line-arguments) for a brief description.
+
 Bracketed sections of paths (eg. `<path to RPiCamera>`, `<path to dir where photo will go>`) indicate places where the path differs. Replace everything within and including the brackets with the actual path (eg. `<path to RPiCamera>/RPiCamera/scripts/photo.py` --> `~/Desktop/RPiCamera/scripts/photo.py`)
 
 

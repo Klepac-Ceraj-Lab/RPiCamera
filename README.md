@@ -12,7 +12,7 @@ The code in this repository was written in Python through [VS Code][4]. Instruct
 If you have `git` installed, the easiest way to obtain this code is to clone the repository.
 
 ```sh
-$ git clone https://github.com/al82023/RPiCamera.git
+$ git clone https://github.com/Klepac-Ceraj-Lab/RPiCamera.git
 Cloning into 'RPiCamera'...
 remote: Enumerating objects: 60, done.
 remote: Counting objects: 100% (60/60), done.

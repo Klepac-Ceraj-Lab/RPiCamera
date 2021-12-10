@@ -21,7 +21,7 @@ remote: Total 60 (delta 29), reused 50 (delta 19), pack-reused 0
 Unpacking objects: 100% (60/60), done.
 ```
 
-## Using this Repository
+## Using RPiCamera
 All Python scripts can be found in [`scripts/`](scripts). Instructions for how to run scripts can be found in [`scripts/README.md`](scripts/README.md). Scripts should run with no additional modifications.
 
 Instructions for how to set up and create time lapse videos with this repository can also be found in `scripts/README.md`

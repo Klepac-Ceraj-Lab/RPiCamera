@@ -73,6 +73,14 @@ To copy to remote device:
 
 ### video.py
 
+Description:
+
+- takes one video of time length given in command line
+- names photo with current timestamp
+- saves to directory given in command line
+
+
+
 ## Time Lapse Instructions
 1. Use a [cron job](https://en.wikipedia.org/wiki/Cron) to take photos at predetermined intervals of time
     - see files in `examples/` for example cron jobs

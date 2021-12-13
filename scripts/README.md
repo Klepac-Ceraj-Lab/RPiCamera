@@ -20,6 +20,8 @@ Description:
 - names photo(s) with current timestamp
 - saves photo(s) to directory given in command line
 
+**Note** wait at least one second between each button press
+
 Instructions:
 
 To run:

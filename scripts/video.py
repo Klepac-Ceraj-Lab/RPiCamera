@@ -8,7 +8,7 @@ camera = PiCamera()
 # takes command line argument
 parser = argparse.ArgumentParser()
 parser.add_argument("dir") # first argument = destination directory
-parser.add_argument("time") # second argument = video time
+parser.add_argument("time") # second argument = video time (in seconds)
 args = parser.parse_args()
 
 camera.start_preview(alpha=100) # alpha value makes preview slightly see-through so screen is still visible

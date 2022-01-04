@@ -3,11 +3,13 @@ This directory contains scripts to control the HQ Camera with an RPi
 ## Using the command-line interface
 All scripts are run using the [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface).
 
+For a brief guide to using the command-line interface to navigate the filesystem, refer to [BISC 195 Lesson 1 Part 2](http://bisc195.wellesley.edu/lessons/Lesson01/#part_2_-_navigating_the_filesystem_using_the_terminal)
+
 Command prompts will look something like this: `anika@raspberrypi:~ $`. In the Instructions below, everything after `$` is the command to be typed.
 
 Most scripts also use command line arguments (parsed using `argparse`). See [Python Command Line Arguments](https://www.askpython.com/python/python-command-line-arguments) for a brief description.
 
-Bracketed sections of paths (eg. `<path to RPiCamera>`, `<path to destination directory>`) indicate places where the path differs. Replace everything within and including the brackets with the actual path (e.g., `<path to RPiCamera>` --> `~/Desktop` if RPiCamera is in Desktop)
+Bracketed sections of paths (eg. `<path to RPiCamera>`, `<path to destination directory>`) indicate places where the path differs. Replace everything within and including the brackets with the actual path (e.g., `<path to RPiCamera>` --> `~/Desktop` if RPiCamera is in Desktop).
 
 **Note**: In the Examples below, the RPiCamera directory is in Desktop and all photos and videos are sent to Desktop/example.
 

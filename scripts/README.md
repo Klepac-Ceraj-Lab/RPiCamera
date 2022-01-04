@@ -13,7 +13,7 @@ Bracketed sections of paths (eg. `<path to RPiCamera>`, `<path to dir where phot
 
 ## Descriptions and Instructions for Individual Scripts
 
-### [buttonphoto.py](@ref)
+### [buttonphoto.py](buttonphoto.py)
 
 DESCRIPTION:
 

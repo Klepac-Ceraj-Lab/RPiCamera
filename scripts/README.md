@@ -5,6 +5,8 @@ All scripts are run using the [command-line interface](https://en.wikipedia.org/
 
 Command prompts will look something like this: `anika@raspberrypi:~ $`. In the Instructions below, everything after `$` is the command to be typed.
 
+Most scripts also run through command line arguments (parsed using `argparse`). See [Python Command Line Arguments](https://www.askpython.com/python/python-command-line-arguments) for a brief description.
+
 Bracketed sections of paths (eg. `<path to RPiCamera>`, `<path to dir where photo will go>`) indicate places where the path differs. Replace everything within and including the brackets with the actual path (eg. `<path to RPiCamera>/RPiCamera/scripts/photo.py` --> `~/Desktop/RPiCamera/scripts/photo.py`)
 
 
@@ -17,6 +19,8 @@ Description:
 - takes photo(s) upon button press
 - names photo(s) with current timestamp
 - saves photo(s) to directory given in command line
+
+**Note** wait at least one second between each button press
 
 Instructions:
 
@@ -68,6 +72,16 @@ To copy to remote device:
 1. execute `rd $ rsync pd:<path to photo on pd> <path to dir on rd where photo will be copied>`
     - remote device = rd
     - device with photo = pd
+
+### video.py
+
+Description:
+
+- takes one video of time length given in command line
+- names photo with current timestamp
+- saves to directory given in command line
+
+
 
 ## Time Lapse Instructions
 1. Use a [cron job](https://en.wikipedia.org/wiki/Cron) to take photos at predetermined intervals of time

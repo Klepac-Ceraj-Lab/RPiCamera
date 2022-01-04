@@ -1,6 +1,6 @@
 This directory contains scripts to control the HQ Camera with an RPi
 
-## Using the Command-Line Interface
+## Using the command-line interface
 All scripts are run using the [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface).
 
 Command prompts will look something like this: `anika@raspberrypi:~ $`. In the Instructions below, everything after `$` is the command to be typed.
@@ -11,7 +11,7 @@ Bracketed sections of paths (eg. `<path to RPiCamera>`, `<path to destination di
 
 **Note**: In the Examples below, the RPiCamera directory is in Desktop and all photos and videos are sent to Desktop/example.
 
-## Descriptions and Instructions for Individual Scripts
+## Descriptions and instructions for individual scripts
 
 ### [buttonphoto.py](buttonphoto.py)
 
@@ -124,7 +124,7 @@ Command: `anika@raspberrypi:~ $ python ~/Desktop/RPiCamera/scripts/video.py ~/De
 
 Filename: `~/Desktop/example/20220104-174953.h264`
 
-## Time Lapse Instructions
+## Creating time lapse videos from photos
 1. Use a [cron job](https://en.wikipedia.org/wiki/Cron) to take photos at predetermined intervals of time
     - see files in `RPiCamera/examples/` for example cron jobs
 2. Make a time lapse using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime).

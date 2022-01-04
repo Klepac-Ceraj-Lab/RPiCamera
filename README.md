@@ -3,12 +3,12 @@
 ## Installing RPiCamera
 This repository allows you to control and take pictures with a [Raspberry Pi (RPi)][1] connected to a [High Quality (HQ) Camera][2] using `Python`. In order to use this repository, follow the instructions below.
 
-### Install Python
+### Installing Python
 Follow the installation instructions for your system from the [Python website][3]. Code has been tested against Python 2.7.16.
 
 The code in this repository was written in Python through [VS Code][4]. Instructions on how to download VS Code and install the Python extension can be found [here][5].
 
-### Clone this Repository
+### Cloning this repository
 If you have `git` installed, the easiest way to obtain this code is to clone the repository.
 
 ```sh

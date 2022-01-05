@@ -12,9 +12,15 @@ Most scripts also use command line arguments (parsed using `argparse`). See [Pyt
 
 Bracketed sections of paths (eg. `<path to RPiCamera>`, `<path to destination directory>`) indicate places where the path differs. Replace everything within and including the brackets with the actual path (e.g., `<path to RPiCamera>` --> `~/Desktop` if RPiCamera is in Desktop).
 
-**Note**: In the Examples below, the RPiCamera directory is in Desktop and all photos and videos are sent to Desktop/example.
+### Important things to keep in mind
+- The destination directory should already exist prior to running a script. If not, make a directory.
+    - Directory names should not contain any spaces or special characters. If you would like words to be separated use a hyphen "-" or underscore "_".
+- The path to the destination directory should always end in "`/`". If not, the directory name will be added onto the file name, and the file will go into the parent directory.
+- **Always use tab complete!** This will not only ensure that a directory or file exists but will also add a "`/`" to the end of any directory.
 
-## Descriptions and instructions for individual scripts
+## Descriptions, instructions, and examples for individual scripts
+
+**Note**: In the Examples below, the RPiCamera directory is in Desktop and all photos and videos are sent to Desktop/example.
 
 ### [buttonphoto](buttonphoto.py)
 
@@ -28,7 +34,6 @@ INSTRUCTIONS:
 
 To run:
 1. execute `$ python <path to RPiCamera>/RPiCamera/scripts/buttonphoto.py <path to destination directory>/`
-    - path to destination directory must include '`/`' to insure that file goes inside the given dir
 2. press button to take photo
 3. wait at least one second to ensure script is ready to take another photo
 4. repeat for as many photos as desired
@@ -55,7 +60,6 @@ DESCRIPTION:
 INSTRUCTIONS:
 
 1. execute `$ python <path to RPiCamera>/RPiCamera/scripts/photo.py <path to destination directory>/`
-    - path to destination directory must include '`/`' to insure that file goes inside the given dir
 
 EXAMPLE:
 
@@ -91,7 +95,6 @@ INSTRUCTIONS:
 
 To run:
 1. execute `$ python <path to RPiCamera>/RPiCamera/scripts/remotepreview.py <path to destination directory>/`
-    - path to destination directory must include '`/`' to insure that file goes inside the given dir
 
 To copy to remote device:
 1. execute `rd $ rsync pd:<path to photo on pd> <path to destination directory on rd>/`
@@ -121,7 +124,6 @@ DESCRIPTION:
 INSTRUCTIONS:
 
 1. execute `$ python <path to RPiCamera>/RPiCamera/scripts/video.py <path to destination directory>/`
-    - path to destination directory must include '`/`' to insure that file goes inside the given dir
 
 EXAMPLE:
 

@@ -24,6 +24,6 @@ Unpacking objects: 100% (60/60), done.
 ## Using RPiCamera
 All Python scripts can be found in [`scripts/`](scripts). Instructions for how to run scripts can be found in [`scripts/README.md`](scripts/README.md). Scripts should run with no additional modifications.
 
-Instructions for how to set up and create time lapse videos with this repository can also be found in [`scripts/README.md`](scripts/README.md#creating-time-lapse-videos)
+Instructions for how to set up and create time lapse videos with this repository can also be found under [Creating time lapse videos](scripts/README.md#creating-time-lapse-videos) in `scripts/README.md`
 
 Example photos taken and time lapses made with the code in this repository can be found in the files in [`examples/`](examples).

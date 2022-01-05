@@ -2,7 +2,7 @@ This directory contains scripts to control the HQ Camera with an RPi
 
 ## Using the command-line interface
 All scripts are run using the [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface) in terminal.
-(The terminal icon on RPi's is a black rectangle with ">_" inside and blue bar on top )
+(The terminal icon on the RPi is a black rectangle with ">_" inside and blue bar on top )
 
 For a brief guide to using the command-line interface to navigate the filesystem, refer to [BISC 195 Lesson 1 Part 2](http://bisc195.wellesley.edu/lessons/Lesson01/#part_2_-_navigating_the_filesystem_using_the_terminal)
 

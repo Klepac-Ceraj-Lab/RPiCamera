@@ -15,7 +15,7 @@ Bracketed sections of paths (eg. `<path to RPiCamera>`, `<path to destination di
 
 ## Descriptions and instructions for individual scripts
 
-### [buttonphoto.py](buttonphoto.py)
+### [buttonphoto](buttonphoto.py)
 
 DESCRIPTION:
 
@@ -42,14 +42,14 @@ Command: `anika@raspberrypi:~ $ python ~/Desktop/RPiCamera/scripts/buttonphoto.p
 
 Filename(s): `~/Desktop/example/20220104-173010.jpg`, `~/Desktop/example/20220104-173020.jpg`, etc.
 
-### [photo.py](photo.py)
+### [photo](photo.py)
 
 DESCRIPTION:
 
 - takes one photo
 - names photo with current timestamp (yyyymmdd-hhmmss)
 - saves to directory given in command line
-- *this script can be used in conjuntion with a cron job to create time lapse videos - see [Creating time lapse videos from photos](#time-lapse) below for more details*
+- *this script can be used in conjuntion with a cron job to create time lapse videos - see [Creating time lapse videos from photos](README.md#creating-time-lapse-videos) below for more details*
 
 INSTRUCTIONS:
 
@@ -62,7 +62,7 @@ Command: `anika@raspberrypi:~ $ python ~/Desktop/RPiCamera/scripts/photo.py ~/De
 
 Filename: `~/Desktop/example/20220104-173128.jpg`
 
-### [preview.py](preview.py)
+### [preview](preview.py)
 
 DESCRIPTION:
 
@@ -77,7 +77,7 @@ EXAMPLE:
 
 Command: `anika@raspberrypi:~ $ python ~/Desktop/RPiCamera/scripts/preview.py`
 
-### [remotepreview.py](remotepreview.py)
+### [remotepreview](remotepreview.py)
 
 DESCRIPTION:
 
@@ -108,7 +108,7 @@ Command to copy to remote device: `anika:~ $ rsync doudna:~/Desktop/example/remo
 - device with photo = `doudna`
 - destination directory of photo = `~/Desktop`
 
-### [video.py](video.py)
+### [video](video.py)
 
 DESCRIPTION:
 
@@ -127,7 +127,7 @@ Command: `anika@raspberrypi:~ $ python ~/Desktop/RPiCamera/scripts/video.py ~/De
 
 Filename: `~/Desktop/example/20220104-174953.h264`
 
-## Creating time lapse videos from photos {#time-lapse}
+## Creating time lapse videos
 1. Use a [cron job](https://en.wikipedia.org/wiki/Cron) to take photos at predetermined intervals of time
 2. Make a time lapse using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime).
     - For MacOS 11.6 running QuickTime Player 10.5

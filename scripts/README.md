@@ -49,6 +49,7 @@ DESCRIPTION:
 - takes one photo
 - names photo with current timestamp (yyyymmdd-hhmmss)
 - saves to directory given in command line
+- *this script can be used in conjuntion with a cron job to create time lapse videos - see [Creating time lapse videos from photos](#markdown-header-creating-time-lapse-videos-from-photos) below for more details*
 
 INSTRUCTIONS:
 

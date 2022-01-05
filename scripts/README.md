@@ -129,10 +129,14 @@ Filename: `~/Desktop/example/20220104-174953.h264`
 
 ## Creating time lapse videos from photos {#time-lapse}
 1. Use a [cron job](https://en.wikipedia.org/wiki/Cron) to take photos at predetermined intervals of time
-    - see files in `RPiCamera/examples/` for example cron jobs
 2. Make a time lapse using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime).
     - For MacOS 11.6 running QuickTime Player 10.5
         - Open QuickTime Player
         - Go to "File" -> "Open Image Sequence" (Command+Shift+O)
         - Select images to include in time lapse --> click "Choose media"
         - Select feautures (24 frames per second is standard) --> click "Open"
+
+See files in `RPiCamera/examples/` for example cron jobs and time lapse videos.
+- [Intial Test](../examples/Initial-Test.md)
+- [Soil Microbes](../examples/Soil-Microbes.md)
+- [Winogradsky Columns](../examples/Winogradsky-Columns.md)

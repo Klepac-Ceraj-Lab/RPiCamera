@@ -1,12 +1,12 @@
 # RPiCamera
 
 ## Installing RPiCamera
-This repository allows you to control and take pictures with a [Raspberry Pi (RPi)][1] connected to a [High Quality (HQ) Camera][2] using `Python`. In order to use this repository, follow the instructions below.
+This repository allows you to control and take pictures with a [Raspberry Pi (RPi)](https://www.raspberrypi.org/) connected to a [High Quality (HQ) Camera](https://www.raspberrypi.org/products/raspberry-pi-high-quality-camera/) using `Python`. In order to use this repository, follow the instructions below.
 
 ### Installing Python
-Follow the installation instructions for your system from the [Python website][3]. Code has been tested against Python 2.7.16.
+Follow the installation instructions for your system from the [Python website](https://www.python.org/downloads/). The code in this repository has been tested against Python 2.7.16.
 
-The code in this repository was written in Python through [VS Code][4]. Instructions on how to download VS Code and install the Python extension can be found [here][5].
+The code in this repository was written in Python through [VS Code](https://code.visualstudio.com/). Instructions on how to download VS Code and install the Python extension can be found [here](https://code.visualstudio.com/docs/python/python-tutorial).
 
 ### Cloning this repository
 If you have `git` installed, the easiest way to obtain this code is to clone the repository.
@@ -26,10 +26,4 @@ All Python scripts can be found in [`scripts/`](scripts). Instructions for how t
 
 Instructions for how to set up and create time lapse videos with this repository can also be found in `scripts/README.md`
 
-Example photos taken and time lapses made with the code in this repository can be found in [`examples/`](examples).
-
-[1]: https://www.raspberrypi.org/
-[2]: https://www.raspberrypi.org/products/raspberry-pi-high-quality-camera/
-[3]: https://www.python.org/downloads/
-[4]: https://code.visualstudio.com/
-[5]: https://code.visualstudio.com/docs/python/python-tutorial
+Example photos taken and time lapses made with the code in this repository can be found in the files in [`examples/`](examples).

@@ -33,7 +33,7 @@ To run:
 4. repeat for as many photos as desired
 
 To stop:
-1. press `Ctrl + C`
+1. press `Ctrl + C` to execute a KeyboardInterrupt in terminal
 2. press button
 
 EXAMPLE:

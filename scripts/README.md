@@ -127,7 +127,7 @@ Command: `anika@raspberrypi:~ $ python ~/Desktop/RPiCamera/scripts/video.py ~/De
 
 Filename: `~/Desktop/example/20220104-174953.h264`
 
-## Creating time lapse videos from photos {time-lapse}
+## Creating time lapse videos from photos {#time-lapse}
 1. Use a [cron job](https://en.wikipedia.org/wiki/Cron) to take photos at predetermined intervals of time
     - see files in `RPiCamera/examples/` for example cron jobs
 2. Make a time lapse using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime).

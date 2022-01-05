@@ -49,7 +49,7 @@ DESCRIPTION:
 - takes one photo
 - names photo with current timestamp (yyyymmdd-hhmmss)
 - saves to directory given in command line
-- *this script can be used in conjuntion with a cron job to create time lapse videos - see [Creating time lapse videos from photos](#markdown-header-creating-time-lapse-videos-from-photos) below for more details*
+- *this script can be used in conjuntion with a cron job to create time lapse videos - see [Creating time lapse videos from photos](#time-lapse) below for more details*
 
 INSTRUCTIONS:
 
@@ -127,7 +127,7 @@ Command: `anika@raspberrypi:~ $ python ~/Desktop/RPiCamera/scripts/video.py ~/De
 
 Filename: `~/Desktop/example/20220104-174953.h264`
 
-## Creating time lapse videos from photos
+## Creating time lapse videos from photos {time-lapse}
 1. Use a [cron job](https://en.wikipedia.org/wiki/Cron) to take photos at predetermined intervals of time
     - see files in `RPiCamera/examples/` for example cron jobs
 2. Make a time lapse using [QuickTime Player](https://en.wikipedia.org/wiki/QuickTime).
